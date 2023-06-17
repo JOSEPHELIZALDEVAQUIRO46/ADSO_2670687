@@ -1,0 +1,18 @@
+*{
+    background-color: #aaa;
+}
+h2{
+    color: darkred;
+}
+.PCG{
+    color: blue;
+    text-align: center;
+}
+.P1{
+    text-align: justify;
+    color: black;
+}
+#D1{
+    text-align: justify;
+    color: darkgoldenrod;
+}
