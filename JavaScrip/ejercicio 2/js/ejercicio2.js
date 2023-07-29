@@ -119,3 +119,24 @@ let tper2 = parseInt(pers2)* parseInt(100/totalp);
 let tper3 = parseInt(pers3)* parseInt(100/totalp);
 
 alert("El porcentaje que cada persona invirtio en la fundacion de la empresa es de " +tper1+ "% la primera persona, " +tper2+ "% la segunda persona y " +tper3+ "% la tercera persona.");
+
+/*Ejercicio 10 - Realizar una calculadora con las operaciones básicas suma, división,
+multiplicación y división. */
+
+let opcion = prompt("1. suma 2. resta 3. division 4. multiplcacion");
+let nume1 = prompt("digite el numero 1");
+let nume2 = prompt("digite el numero 2");
+
+if (opcion==1){
+    suma=parseInt(nume1)+parseInt(nume2);
+    alert(suma);
+} else if(opcion==2){
+    resta=parseInt(nume1)-parseInt(nume2);
+    alert(resta);
+} else if(opcion==3){
+    division=parseInt(nume1)/parseInt(nume2);
+    alert(division);
+} else {
+    multiplicacion=parseInt(nume1)*parseInt(nume2);
+    alert(multiplicacion);
+}
