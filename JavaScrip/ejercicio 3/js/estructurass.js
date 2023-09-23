@@ -1,5 +1,5 @@
-//Actividad
-// Ejercicio 1. Programa que dada la edad de una persona indique si es mayor o menor de edad.
+//yActividad
+//Ejercicio 1. Programa que dada la edad de una persona indique si es mayor o menor de edad.
 
 
 let edad = prompt("Ingresa tu edad: ");
@@ -12,7 +12,7 @@ if (edad < 18) {
 /*Ejer 2. Dadas las tres calificaciones que el estudiante obtuvo en un curso:
 A. Determinar su promedio.
 B.Indicar si el estudiante aprobó o no el curso. 
-C.Las notas deben ser de 1 a 10 y aprueba con un promedio mayor de 6.*/
+C.Las notas deben ser de 1 a 10 y aprueba con un promedio mayor de 6.
 
 let cal1 = prompt("ingrese la primera calificacion");
 let cal2 = prompt("ingrese la segunda calificacion");
@@ -25,7 +25,7 @@ if (prom <6){
 } else (prom >=6);{
     alert("Usted aprobó")
 }
-// Actividad 3
+ Actividad 3
 let a = prompt("Ingresa el primer número: ");
 let b = prompt("Ingresa el segundo número: ");
 
@@ -42,8 +42,9 @@ if (a > b) {
 
   alert("a es igual que b.");
 } 
-
+*/
 // Actividad 4
+
 let numeros = [];
 
 for (let i = 0; i < 5; i++) {
@@ -55,7 +56,7 @@ numeros.sort((a, b) => a - b);
 for (let numero of numeros) {
   alert(numero);
 }
-
+/*
 //Actividad 5
 
 
@@ -197,7 +198,7 @@ if (numero1 == numero2) {
     alert("El segundo número es mayor y su suma es " + numero1 + numero2);
 } 
 
-// Actividad 12. Realizar una calculadora con las operaciones bassicas*/
+// Actividad 12. Realizar una calculadora con las operaciones bassicas
 
 let opcion = prompt("1. suma 2. resta 3. division 4. multiplcacion");
 let nume1 = prompt("digite el numero 1");
@@ -216,3 +217,4 @@ if (opcion==1){
     multiplicacion=parseInt(nume1)*parseInt(nume2);
     alert(multiplicacion);
 }
+*/
